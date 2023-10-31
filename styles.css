@@ -1,0 +1,198 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    /* background: blue; */
+}
+body{
+    width: 100%;
+    margin: 0 auto 3em auto;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.landing-place-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;/* Set to 80% of the page's width */
+    /* margin: 0 auto; */
+    padding: 0 40%;
+    background: red;
+}
+
+
+
+/* Center the container-heading div */
+.container-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    color: #755800;
+    margin-bottom: 1rem;
+    font-family: Lobster;
+}
+
+.container-heading h2{
+    margin-bottom: 0.7rem;
+    font-weight: 350;
+    font-size: 200%;
+}
+
+.container-heading h6{
+    font-size: 100%;
+    font-weight: 200;
+}
+
+.container-mission{
+    color: #755800;
+}
+
+.container-mission h1{
+    text-align: center;
+}
+
+.container-urging{
+    text-align: center;
+    margin: 2.4rem 0 2rem 0;
+    /* font-weight: bold; */
+}
+
+#container-urging-span{
+    color: #f5ba0b;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.pricing-container{
+    margin-top: 2em;
+}
+
+.pricing-header{
+    color: #755800;
+    text-align: center;
+    margin: 0 0 0.5rem 1rem;
+    font-size: 160%;
+}
+
+.pricing-plan-details{
+    text-align: center;
+}
+
+.pricing-plan-details #first-p{
+    margin-bottom: 0.5rem;
+}
+
+.pricing-plan-details #second-p{
+    margin-bottom: 1rem;
+}
+
+
+
+/* FROM CHATGPT*/
+.pricing-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.pricing-details {
+    width: calc(33.33% - 20px); /* 33.33% width with some spacing */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Style the header (h2) */
+.pricing-details h2, .footer-package , .exact-price{
+    text-align: center;
+    
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.footer-package p, .exact-price{
+    background-color: #755800;
+}
+
+/* Style the list */
+.pricing-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-details ul li {
+    margin-bottom: 1em;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* FROM CHATGPT*/
+
+#pricing-basic{
+    color: grey;
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+#pricing-premium{
+    color: #755800;
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+#pricing-elite{
+    color: black;
+    font-style: italic;
+    font-size: 125%;
+    font-weight: bolder;
+    /* font-weight: 100; */
+}
+
+.pricing-recommendation{
+    margin-bottom: 1.7rem;
+    /* font-style: italic; */
+    font-weight: 500;
+    width: 60%;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+}
+
+.container-footer{
+    text-align: center;
+}
+
+#last-carpe-diem{
+    color: #755800;
+    font-weight: bold;
+}
+
+.footer-package p{
+    width: 12rem;
+    padding: 0.5em;
+    margin: 0 auto;
+    font-size: 130%;
+    border-radius: 10px;
+    font-weight: 400;
+
+}
+
+.footer-urging, .footer-package{
+    margin-bottom: 1rem;
+}
+
+.footer-urging{
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+.footer-contact p {
+    margin-bottom: 0.3em;
+  }
+  
+
+
+  /* WEBSITE STYLING */
+  

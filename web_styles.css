@@ -1,0 +1,137 @@
+
+/* NAVIGATION LINKS*/
+
+.container-nav-link .nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+.nav-links li:first-child{
+    margin-right: auto;
+}
+
+.nav-links li:nth-child(n+2) {
+    margin-left: 50px; /* Add some space between the right three items */
+}
+.container-nav-link li{
+    list-style: none;
+}
+
+.container-nav-link li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* nav background*/
+.container-nav-link{
+    background-color: whitesmoke;
+    padding: 1.5rem;
+}
+
+#logo a{
+    font-family: Lobster;
+    color: #755800;
+    /* color:  #f5ba0b; */
+    font-weight: 500;
+    font-size: 240%;
+}
+
+
+/* BNNER PART */
+
+
+.banner-container {
+    background-image: url('images/email_unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+    position: relative; /* Make the container relative */
+    /* background: red; */
+}
+
+.container-mission,
+.container-urging {
+    position: absolute; /* Make child divs absolute */
+ /* Position them vertically in the middle */
+    left: 50%; /* Position them horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center them precisely */
+    text-align: center; /* Center the text within the child divs */
+    color: #fff; /* Set text color to white */
+}
+
+.container-mission{
+    top: 15%;
+}
+
+.container-urging{
+    top: 20%;
+}
+
+#container-urging-span {
+    font-weight: bold;
+}
+
+/* Pricing */
+.pricing-categories{
+    margin: 3rem 0;
+    /* margin-bottom: 3rem; */
+}
+/* Style the "Basic," "Premium," and "Elite" sections */
+.pricing-details {
+    width: calc(31.33% - 20px); /* Reduce the width and add spacing */
+    border: 1px solid transparent; /* Make the border transparent */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; /* Add border radius */
+    background: #fff; /* Set the background color to white */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Increase shadow depth for a stronger pop */
+    margin: 0 15px; /* Push the boxes further away from the left and right */
+    transition: transform 0.3s; /* Add a transition effect */
+}
+
+.pricing-details:hover {
+    transform: translateY(-5px); /* Add a hover effect to make the section pop up on hover */
+}
+
+.pricing-details h2,
+.exact-price {
+    /* color: #755800; */
+    padding: 5px;
+    margin: 0;
+    font-size: 120%;
+    font-weight: 900;
+}
+
+/* Style the list */
+.pricing-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-details ul li {
+    margin-bottom: 1em;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Style "Basic," "Premium," and "Elite" text */
+#pricing-basic {
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+#pricing-premium {
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+#pricing-elite {
+    font-size: 125%;
+    font-weight: bolder;
+}
+
+/* FOOTER CODE */
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    /* background: blue; */
+}
+body{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    font-family: "Roboto", sans serif;
+}
+
+.first-line{
+    display: flex;
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.second-line{
+    display: flex;
+    text-wrap: wrap;
+}

@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    margin: 0 auto 3em auto;
+    margin: 0 auto 0 auto;
     box-sizing: border-box;
     font-family: "Roboto", sans serif;
 }
@@ -16,7 +16,11 @@ body{
     /* margin: 0 auto; */
     padding: 0 40%;
     background: red;
+    z-index: 1;
+    position: relative;
 }
+
+
 
 
 
@@ -44,15 +48,19 @@ body{
 
 .container-mission{
     color: #755800;
+    width: 80%;
+    margin:30px auto;
 }
 
 .container-mission h1{
     text-align: center;
+    
 }
 
 .container-urging{
     text-align: center;
     margin: 2.4rem 0 2rem 0;
+    font-size: larger;
     /* font-weight: bold; */
 }
 
@@ -195,4 +203,22 @@ body{
 
 
   /* WEBSITE STYLING */
-  
+  /* Your existing styles for the footer */
+
+.footer-section-container {
+    display: flex;
+    justify-content: space-around;
+    background: #755800;
+    color: white;
+    position: relative;
+    padding: 20px 30px;
+    /* Add some padding to space the sections */
+}
+
+.footer {
+    background: #755800; /* Set the background color for the entire footer */
+    color: white;
+    padding: 20px 30px;
+    text-align: center; /* Center-align text in the footer */
+}
+

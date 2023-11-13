@@ -9,15 +9,188 @@ body{
     box-sizing: border-box;
     font-family: "Roboto", sans serif;
 }
+/* CONTAINER MISSION STYLES*/
 
-.first-line{
+.about-us-container{
     display: flex;
-    text-wrap: wrap;
-    justify-content: space-between;
+    width: 100%;
+    background: #755800;
+}
+
+.about-banner{
+    /* width: 100%; */
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    color: #755800;
+    color: white;
+    /* gap: 20px; */
+    padding: 1rem;
+    /* justify-items: center; */
+}
+
+.about-banner h1, p{
+    text-align: center;
+    margin-bottom: 0.8rem;
+    /* font-weight: bold; */
+}
+.about-banner p{
+    /* font-weight: bold; */
+    letter-spacing: 0.03rem;
+    font-size: 0.9rem;
 }
 
 
-.second-line{
+/* PASSION VISION CONTAINER */
+
+/* PASSION VISION CONTAINER */
+.ethos-purpose-container,
+.passion-vision-container {
     display: flex;
-    text-wrap: wrap;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+    justify-content: space-around;
+    margin: 3rem 0;
 }
+
+/* VISION CONTAINER */
+
+
+.ethos-container,
+.purpose-container,
+.joining-promises-container,
+.vision-container,
+.passion-container {
+    /* Adjust the width as needed, leaving some space between the two containers */
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    width: calc(45% - 20px);
+}
+
+.joining-promises-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.vision-container,
+.passion-container{
+    width: calc(45% - 20px); 
+}
+
+/* Hover effect */
+.ethos-container:hover,
+.purpose-container:hover,
+.joining-promises-container:hover,
+.vision-container:hover,
+.passion-container:hover {
+    transform: translateY(-5px);
+}
+.ethos-container h2,
+.purpose-container h2,
+.joining-promises-container h2,
+.vision-container h2,
+.passion-container h2 {
+    padding: 5px;
+    margin: 0;
+    font-size: 150%;
+    font-weight: 900;
+    color: #755800;
+}
+
+
+/*JOINING PROMISES CONTAINER*/
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+
+
+ul li {
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+ul li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 110%;
+}
+
+ul li::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(star\ \(2\).png);
+    background-size: cover;
+    margin-right: 0.5rem; /* Adjust the spacing between the star icon and the text */
+    /* margin-bottom: 1.5rem; */
+}
+
+.take-to-pricing-container{
+    background: #755800;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 25px auto 15px auto;
+    
+}
+.take-to-pricing-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.take-to-pricing-container h1{
+    font-size: 130%;
+    font-weight: 300;
+}
+
+
+.back-button-container{
+    display: flex;
+}
+/* Add these styles to your CSS file */
+.back-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white; /* Change the color as needed */
+    /* margin-right: 20px; Adjust the margin as needed */
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 10px;
+    width: fit-content;
+    /* margin-right: auto; */
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.back-button:hover{
+    background: white;
+    color: #755800;
+}
+    /* Style for the back icon */
+.back-button img {
+    height: 20px;
+    width: 20px; /* Adjust the width of the icon */
+    margin-right: 5px; /* Adjust the spacing between the icon and text */
+    
+}
+
+
+.back-button a{}
+
+
+
